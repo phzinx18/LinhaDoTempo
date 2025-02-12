@@ -1,0 +1,75 @@
+.timeline {
+  position: relative;
+  margin: 0 auto 30px 140px;
+  margin-bottom: 25px;
+  background-color: #ffffff;
+  padding: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  width: 185px;
+}
+
+.timeline2 {
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  margin-left: 30px;
+  background-color: #ffffff;
+  padding: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  width: 185px;
+}
+
+.timeline img {
+  width: auto;
+  height: 250px;
+  margin-bottom: 10px;
+}
+
+.timeline2 img {
+  width: auto;
+  height: 250px;
+  margin-bottom: 10px;
+}
+
+body {
+  background-color: #814942;
+}
+
+h1 {
+  text-align: center;
+  color: #ffffff;
+  font-family: myFont;
+  letter-spacing: 9px;
+}
+
+footer h2 {
+  text-align: center;
+  color: #ffffff;
+  font-family: myFont;
+}
+
+footer {
+  background-color: #613732;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+@font-face {
+  font-family: "myFont";
+  src: url(./Mister\ Bugadi.otf);
+}
+
+@media screen and (max-width: 600px) {
+  .timeline {
+    max-width: 50%;
+    margin-right: 0;
+  }
+
+  .timeline2 {
+    max-width: 50%;
+  }
+}
